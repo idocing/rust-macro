@@ -1,0 +1,6 @@
+[submodule "tlborm"]
+	path = tlborm
+	url = https://github.com/Veykril/tlborm.git
+[submodule "tlborm-chinese"]
+	path = tlborm-chinese
+	url = https://github.com/DaseinPhaos/tlborm-chinese.git	

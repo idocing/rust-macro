@@ -1,0 +1,46 @@
+[book]
+authors = ["Daniel Keep", "Veykril", "DaseinPhaos", "zjp"]
+language = "zh"
+multilingual = true
+src = "src"
+title = "The Little Book of Rust Macros （Rust 宏小册）"
+
+# [rust]
+# edition = "2021"
+
+# [preprocessor.theme]
+# pagetoc = true
+# pagetoc-width = "12%"
+# content-max-width = "78%"
+# sidebar-width = "255px"
+# sidebar-font-size = "0.85em"
+# content-main-margin-left  = "4%"
+# content-main-margin-right = "4%"
+# nav-chapters-max-width    = "3%"
+# nav-chapters-min-width    = "3%"
+
+[build]
+create-missing = true
+build-dir = "book"
+
+[output.html]
+default-theme = "ayu"
+site-url = "/tlborm/"
+mathjax-support = true
+git-repository-url = "https://github.com/zjp-CN/tlborm"
+additional-css = ["theme/pagetoc.css", "theme/rust-syntax-bg-highlight.css"]
+additional-js = ["theme/pagetoc.js"]
+
+[output.html.fold]
+enable = false
+level = 1
+
+[output.html.playground]
+editable = true
+
+[output.html.print]
+enable = false
+
+[output.theme-ace]
+theme-white = "xcode"
+theme-dark = "monokai"
